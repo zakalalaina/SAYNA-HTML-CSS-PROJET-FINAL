@@ -1,0 +1,119 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+
+header{
+    background-color: #27242b;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+.home{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header a{
+    text-decoration: underline;
+    color: #3d9f96;
+}
+button{
+    border-radius: 50px;
+    background-color: #3d9f96;
+    color: #FFFFFF;
+    background-color: #3d9f96;
+    padding: 2% 7% 2% 7%;
+    border-color: #3d9f96;
+    border-bottom: #3d9f96;
+    border-right: #3d9f96;
+
+}
+.section1{
+    background-color: #27242b;
+    text-align: center;
+    padding-top: 5%;
+}
+h1{
+    color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    color: #3d9f96;
+    font-size:medium;
+}
+h3{
+    text-align: center;
+}
+.section2{
+    background-color:#f7f7f7;
+    text-align: center;
+    padding: 5% 15% 5% 15%; 
+    margin-top: -2%;
+}
+p{
+    color: #ababab;
+}
+.check{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.play{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url(C:\Users\Henintsoa\Desktop\EXO2\ICON/map_bg.PNG);
+    
+}
+.awesomeness{
+    display: flex;
+}
+.section3{
+    background-color: #27242b;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.john{
+    padding-right: 5%;
+}
+.rounded-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    margin-left: 43%;
+}
+.section4{
+    padding: 5% 15% 5% 15%;
+    background-color:#f7f7f7;
+}
+.figure-caption{
+    color: #27242b;
+    font-size: 150%;
+    font-style: bolder;
+}
+.section5{
+    padding: 5% 15% 5% 15%;
+}
+.section6{
+    padding: 5% 15% 5% 15%;
+    background-color: #f7f7f7;
+}
+strong{
+    font-weight: bold;
+}
+.footer{
+    padding: 2% 15% 2% 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        display: none;
+    }
+    header a{
+        display: none;
+    }
+    .sayna{
+        width: 200%;
+        
+    }
+}
+
+
